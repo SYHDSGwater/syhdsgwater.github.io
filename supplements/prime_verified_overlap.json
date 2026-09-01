@@ -1,0 +1,62 @@
+{
+  "schema": "sft_v14d_prime_verified_overlap_v1",
+  "definition": "exact SWE-rebench instance_id equality",
+  "source_dataset": "PrimeIntellect/SWE-Lego-Real-Data-Verified",
+  "source_split": "resolved",
+  "prime": {
+    "unique_issues": 4323,
+    "unique_repos": 1496,
+    "parquet_shards": [
+      "https://huggingface.co/datasets/PrimeIntellect/SWE-Lego-Real-Data-Verified/resolve/refs%2Fconvert%2Fparquet/default/resolved/0000.parquet",
+      "https://huggingface.co/datasets/PrimeIntellect/SWE-Lego-Real-Data-Verified/resolve/refs%2Fconvert%2Fparquet/default/resolved/0001.parquet",
+      "https://huggingface.co/datasets/PrimeIntellect/SWE-Lego-Real-Data-Verified/resolve/refs%2Fconvert%2Fparquet/default/resolved/0002.parquet"
+    ]
+  },
+  "v14d_rebench": {
+    "trajectories": 4385,
+    "unique_issues": 2809,
+    "unique_repos": 1104
+  },
+  "overlap": {
+    "unique_issues": 1736,
+    "fraction_of_prime_issues": 0.4015729817256535,
+    "fraction_of_v14d_rebench_issues": 0.6180135279458883,
+    "fraction_of_all_v14d_manifest_issues": 0.16453416737749976,
+    "v14d_trajectories": 2635,
+    "fraction_of_v14d_rebench_trajectories": 0.6009122006841505,
+    "fraction_of_all_v14d_trajectories": 0.1634209873480526,
+    "unique_repos": 894,
+    "examples": [
+      "12rambau__sepal_ui-814",
+      "15five__scim2-filter-parser-20",
+      "3YOURMIND__django-migration-linter-258",
+      "AI4S2S__lilio-58",
+      "ARMmbed__greentea-263",
+      "ARMmbed__mbed-tools-190",
+      "ARMmbed__mbed-tools-259",
+      "ARMmbed__mbed-tools-293",
+      "ASFHyP3__hyp3-sdk-53",
+      "ASFHyP3__hyp3-sdk-71",
+      "ASPP__pelita-863",
+      "Alexei-Kornienko__schematics_to_swagger-7",
+      "Algebra8__pyopenapi3-91",
+      "AzureAD__microsoft-authentication-library-for-python-795",
+      "Azure__autorest.python-475",
+      "Azure__autorest.python-545",
+      "Azure__azure-cli-1876",
+      "Azure__azure-cli-2467",
+      "Azure__msrest-for-python-167",
+      "Azure__msrest-for-python-189",
+      "Azure__msrestazure-for-python-121",
+      "Azure__pykusto-159",
+      "BaPSF__bapsflib-41",
+      "Bachmann1234__diff_cover-210",
+      "Bachmann1234__diff_cover-277",
+      "CORE-GATECH-GROUP__serpent-tools-346",
+      "CS-SI__eodag-249",
+      "CS-SI__eodag-490",
+      "CS-SI__eodag-634",
+      "CS-SI__eodag-961"
+    ]
+  }
+}

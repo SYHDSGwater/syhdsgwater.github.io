@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>JiangHongwei — Frontier Learning Field Notes</title>
+    <link>https://syhdsgwater.github.io</link>
+    <description>Bilingual research notes on coding agents, post-training, and evaluation.</description>
+    <language>en</language>
+    <item>
+      <title>How to Fine-Tune an Already Strong SWE Agent</title>
+      <link>https://syhdsgwater.github.io/en/notes/student-relative-residual-learning</link>
+      <guid>https://syhdsgwater.github.io/en/notes/student-relative-residual-learning</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <language>en</language>
+      <description>From teacher-centric quality filtering to student-relative residual learning.</description>
+    </item>
+    <item>
+      <title>如何训练一个比强大更强的 SWE Agentic SLM</title>
+      <link>https://syhdsgwater.github.io/zh/notes/student-relative-residual-learning</link>
+      <guid>https://syhdsgwater.github.io/zh/notes/student-relative-residual-learning</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <language>zh-CN</language>
+      <description>从以 teacher 为中心的质量筛选，走向相对于 student 的残余学习。</description>
+    </item>
+  </channel>
+</rss>
