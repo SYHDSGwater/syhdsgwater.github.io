@@ -11,7 +11,7 @@
     "name": "rolldown-runtime"
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "_next/static/chunks/layout-segment-context-BKECfrbU.js",
+    "file": "_next/static/chunks/layout-segment-context-BDQgVj66.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -22,7 +22,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "_next/static/chunks/index-f9WGzdR5.js",
+    "file": "_next/static/chunks/index-CcsrCO7H.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
