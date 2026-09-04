@@ -6,6 +6,22 @@
     <description>Bilingual research notes on coding agents, post-training, and evaluation.</description>
     <language>en</language>
     <item>
+      <title>Claude’s 16K Bet: Is the Tokenizer Becoming Part of the Reasoning Architecture?</title>
+      <link>https://syhdsgwater.github.io/en/notes/claude-16k-tokenizer-reasoning-architecture</link>
+      <guid>https://syhdsgwater.github.io/en/notes/claude-16k-tokenizer-reasoning-architecture</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+      <language>en</language>
+      <description>A hypothesis about Claude’s smaller vocabulary, compositional tokenization, and looped depth.</description>
+    </item>
+    <item>
+      <title>Claude 的 16K 赌注：Tokenizer 是否正在成为 Reasoning Architecture 的核心部分？</title>
+      <link>https://syhdsgwater.github.io/zh/notes/claude-16k-tokenizer-reasoning-architecture</link>
+      <guid>https://syhdsgwater.github.io/zh/notes/claude-16k-tokenizer-reasoning-architecture</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+      <language>zh-CN</language>
+      <description>关于 Claude small vocabulary、compositional tokenization 与 looped depth 的可检验假说。</description>
+    </item>
+    <item>
       <title>How to Fine-Tune an Already Strong SWE Agent</title>
       <link>https://syhdsgwater.github.io/en/notes/student-relative-residual-learning</link>
       <guid>https://syhdsgwater.github.io/en/notes/student-relative-residual-learning</guid>
