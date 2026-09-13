@@ -87,16 +87,16 @@ Reconsidering Claude’s 16K vocabulary, I now assign a low posterior to “reli
 
 Before discussing compute reallocation, consider the actual difference between Claude’s new tokenizer and OpenAI’s `o200k_base`. In 2026, Playcode compared identical byte inputs across **16 real fixtures**. It used Anthropic’s official `count_tokens` endpoint on the Claude side and `tiktoken`’s `o200k_base` on the OpenAI side, cross-checking against actual API `usage` from GPT-5.1/5.5/5.6 Sol. This measures tokenization itself, without mixing in output length, reasoning budgets, or agent trajectories.
 
-| Identical content | Claude 4.7+ / o200k_base token ratio | Meaning |
-| --- | --- | --- |
-| TypeScript | **1.73×** | Claude uses 73% more |
-| Rust | **1.58×** | Claude uses 58% more |
-| JavaScript | **1.52×** | Claude uses 52% more |
-| Python | **1.50×** | Claude uses 50% more |
-| HTML | **1.36×** | Claude uses 36% more |
-| English prose | **1.40×** | Claude uses 40% more |
-| Chinese prose | **1.44×** | Claude uses 44% more |
-| Chinese chat | **1.53×** | Claude uses 53% more |
+| Identical content | Claude 4.7+ / o200k_base token ratio |
+| --- | --- |
+| TypeScript | **1.73×** |
+| Rust | **1.58×** |
+| JavaScript | **1.52×** |
+| Python | **1.50×** |
+| HTML | **1.36×** |
+| English prose | **1.40×** |
+| Chinese prose | **1.44×** |
+| Chinese chat | **1.53×** |
 
 Source: [The Same TypeScript Costs 73% More on Claude Than on GPT](https://playcode.io/blog/real-price-of-frontier-models). One sample makes the difference concrete: the same 2,888-character TypeScript file uses **681 tokens** with `o200k_base` and **1,178 tokens** with Claude’s new tokenizer. Differences between Claude’s own old and new tokenizers are also concentrated in English and code: within the same fixtures, English prose rose 34%, TypeScript 31%, Rust 29%, and an agent system prompt 39%, while Chinese prose was nearly unchanged. Anthropic’s “approximately 30% more tokens” is therefore a workload average. For coding and agent workloads central to Claude, the gap against `o200k_base` frequently reaches **1.5–1.7×**.
 

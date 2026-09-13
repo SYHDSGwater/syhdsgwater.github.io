@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="zh-CN"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link data-precedence="vite-rsc/importer-resources" data-rsc-css-href="/_next/static/css/index.Digs-9z7.css" href="/_next/static/css/index.Digs-9z7.css" rel="stylesheet"/><title>为什么 Claude 选择了 16K 词表？ · JiangHongwei</title><meta content="一个漂亮假说的失败：两组实验、更多 token，以及性能与计费之间的关系。" name="description"/><meta content="JiangHongwei" name="author"/><link href="mailto:syhdsgwater@foxmail.com" rel="author"/><meta content="为什么 Claude 选择了 16K 词表？" property="og:title"/><meta content="一个漂亮假说的失败：两组实验、更多 token，以及性能与计费之间的关系。" property="og:description"/><meta content="article" property="og:type"/><meta content="2026-09-13T00:00:00.000Z" property="article:published_time"/><meta content="summary" name="twitter:card"/><meta content="JiangHongwei — Frontier Learning Field Notes" name="twitter:title"/><meta content="Experiments on frontier learning systems and software-engineering agents." name="twitter:description"/><link href="/icon.svg?9ac85f8052597596" rel="icon" sizes="any" type="image/svg+xml"/><link href="https://syhdsgwater.github.io/zh/notes/claude-16k-tokenizer-revisited/" rel="canonical"/><link href="https://syhdsgwater.github.io/en/notes/claude-16k-tokenizer-revisited/" hreflang="en" rel="alternate"/><link href="https://syhdsgwater.github.io/zh/notes/claude-16k-tokenizer-revisited/" hreflang="zh-CN" rel="alternate"/>
 <link as="font" crossorigin="" href="/_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2" rel="preload" type="font/woff2"/>
 <link as="font" crossorigin="" href="/_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2" rel="preload" type="font/woff2"/>
@@ -269,47 +270,47 @@ h\rightarrow Wh\rightarrow\operatorname{softmax}
 <tr>
 <th scope="col">相同内容</th>
 <th scope="col">Claude 4.7+ / o200k_base token ratio</th>
-<th scope="col">直观含义</th>
+
 </tr>
 <tr>
 <td>TypeScript</td>
 <td><strong>1.73×</strong></td>
-<td>Claude 多 73%</td>
+
 </tr>
 <tr>
 <td>Rust</td>
 <td><strong>1.58×</strong></td>
-<td>Claude 多 58%</td>
+
 </tr>
 <tr>
 <td>JavaScript</td>
 <td><strong>1.52×</strong></td>
-<td>Claude 多 52%</td>
+
 </tr>
 <tr>
 <td>Python</td>
 <td><strong>1.50×</strong></td>
-<td>Claude 多 50%</td>
+
 </tr>
 <tr>
 <td>HTML</td>
 <td><strong>1.36×</strong></td>
-<td>Claude 多 36%</td>
+
 </tr>
 <tr>
 <td>English prose</td>
 <td><strong>1.40×</strong></td>
-<td>Claude 多 40%</td>
+
 </tr>
 <tr>
 <td>Chinese prose</td>
 <td><strong>1.44×</strong></td>
-<td>Claude 多 44%</td>
+
 </tr>
 <tr>
 <td>Chinese chat</td>
 <td><strong>1.53×</strong></td>
-<td>Claude 多 53%</td>
+
 </tr>
 </table></div>
 <p>来源：<a href="https://playcode.io/blog/real-price-of-frontier-models">The Same TypeScript Costs 73% More on Claude Than on GPT</a>。其中一个具体样本更直观：同一个 2,888-character TypeScript file，<code>o200k_base</code> 为 <strong>681 tokens</strong>，Claude 新 tokenizer 为 <strong>1,178 tokens</strong>。Claude 新旧 tokenizer 自身的差异也集中在 English/code：同一组 fixtures 中 English prose +34%、TypeScript +31%、Rust +29%、agent system prompt +39%，而 Chinese prose 几乎不变。这说明 Anthropic 官方所说“约 30% 更多 tokens”只是 workload-average；对于 Claude 最重要的 coding/agent workload，和 <code>o200k_base</code> 的差距经常已经到 <strong>1.5–1.7×</strong>。</p>

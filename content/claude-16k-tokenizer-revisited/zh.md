@@ -81,47 +81,47 @@ $$
 <tr>
 <td>相同内容</td>
 <td>Claude 4.7+ / o200k_base token ratio</td>
-<td>直观含义</td>
+
 </tr>
 <tr>
 <td>TypeScript</td>
 <td>**1.73×**</td>
-<td>Claude 多 73%</td>
+
 </tr>
 <tr>
 <td>Rust</td>
 <td>**1.58×**</td>
-<td>Claude 多 58%</td>
+
 </tr>
 <tr>
 <td>JavaScript</td>
 <td>**1.52×**</td>
-<td>Claude 多 52%</td>
+
 </tr>
 <tr>
 <td>Python</td>
 <td>**1.50×**</td>
-<td>Claude 多 50%</td>
+
 </tr>
 <tr>
 <td>HTML</td>
 <td>**1.36×**</td>
-<td>Claude 多 36%</td>
+
 </tr>
 <tr>
 <td>English prose</td>
 <td>**1.40×**</td>
-<td>Claude 多 40%</td>
+
 </tr>
 <tr>
 <td>Chinese prose</td>
 <td>**1.44×**</td>
-<td>Claude 多 44%</td>
+
 </tr>
 <tr>
 <td>Chinese chat</td>
 <td>**1.53×**</td>
-<td>Claude 多 53%</td>
+
 </tr>
 </table>
 来源：[The Same TypeScript Costs 73% More on Claude Than on GPT](https://playcode.io/blog/real-price-of-frontier-models)。其中一个具体样本更直观：同一个 2,888-character TypeScript file，`o200k_base` 为 **681 tokens**，Claude 新 tokenizer 为 **1,178 tokens**。Claude 新旧 tokenizer 自身的差异也集中在 English/code：同一组 fixtures 中 English prose +34%、TypeScript +31%、Rust +29%、agent system prompt +39%，而 Chinese prose 几乎不变。这说明 Anthropic 官方所说“约 30% 更多 tokens”只是 workload-average；对于 Claude 最重要的 coding/agent workload，和 `o200k_base` 的差距经常已经到 **1.5–1.7×**。
