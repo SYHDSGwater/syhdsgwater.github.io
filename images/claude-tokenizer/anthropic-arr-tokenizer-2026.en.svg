@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="860" viewBox="0 0 1600 860" role="img" aria-labelledby="title desc">
+<title id="title">Anthropic 2026 ARR: reported and tokenizer-normalized scenario</title><desc id="desc">Reported annualized revenue exceeds $65B at end-July. The scenario divides post-April-16 revenue by 1.30, assuming all revenue is exposed to token inflation. This is a sensitivity analysis, not financial revenue or a causal estimate.</desc>
+<style>text{font-family:Georgia,'Times New Roman','SimSun','Noto Serif CJK SC',serif;font-variant-numeric:tabular-nums;fill:#262B2A}</style>
+<rect width="1600" height="860" fill="#FFFFFF"/>
+
+<text x="130.00" y="100.00" font-size="48" fill="#262B2A" style="fill:#262B2A" font-weight="400" text-anchor="start" >Anthropic ARR</text>
+<text x="130.00" y="143.00" font-size="24" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="start" >2026</text>
+<text x="130.00" y="213.00" font-size="20" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="start" >USD billions</text>
+<line x1="130.00" y1="730.00" x2="1420.00" y2="730.00" stroke="#E8E8E8" stroke-width="1"/>
+<text x="105.00" y="737.00" font-size="21" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="end" >0</text>
+<text x="105.00" y="667.00" font-size="21" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="end" >10</text>
+<line x1="130.00" y1="590.00" x2="1420.00" y2="590.00" stroke="#E8E8E8" stroke-width="1"/>
+<text x="105.00" y="597.00" font-size="21" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="end" >20</text>
+<text x="105.00" y="527.00" font-size="21" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="end" >30</text>
+<line x1="130.00" y1="450.00" x2="1420.00" y2="450.00" stroke="#E8E8E8" stroke-width="1"/>
+<text x="105.00" y="457.00" font-size="21" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="end" >40</text>
+<text x="105.00" y="387.00" font-size="21" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="end" >50</text>
+<line x1="130.00" y1="310.00" x2="1420.00" y2="310.00" stroke="#E8E8E8" stroke-width="1"/>
+<text x="105.00" y="317.00" font-size="21" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="end" >60</text>
+<text x="105.00" y="247.00" font-size="21" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="end" >70</text>
+<text x="130.00" y="774.00" font-size="22" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="middle" >Jan</text>
+<text x="286.82" y="774.00" font-size="22" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="middle" >Feb</text>
+<text x="428.47" y="774.00" font-size="22" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="middle" >Mar</text>
+<text x="585.29" y="774.00" font-size="22" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="middle" >Apr</text>
+<text x="737.06" y="774.00" font-size="22" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="middle" >May</text>
+<text x="893.88" y="774.00" font-size="22" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="middle" >Jun</text>
+<text x="1045.65" y="774.00" font-size="22" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="middle" >Jul</text>
+<text x="1202.47" y="774.00" font-size="22" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="middle" >Aug</text>
+<text x="1359.29" y="774.00" font-size="22" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="middle" >Sep</text>
+<line x1="661.18" y1="230.00" x2="661.18" y2="730.00" stroke="#CECECE" stroke-width="1.2" stroke-dasharray="4 7"/>
+<text x="645.18" y="261.00" font-size="22" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="end" >4.16</text>
+<text x="645.18" y="294.00" font-size="21" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="end" >New tokenizer</text>
+<polyline points="130.00,667.00 342.47,632.00 610.59,520.00 873.65,401.00 1197.41,275.00" fill="none" stroke="#C46743" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="130.00,667.00 342.47,632.00 610.59,520.00 661.18,497.12" fill="none" stroke="#237D78" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 10"/>
+<polyline points="661.18,550.86 873.65,476.92 1197.41,380.00" fill="none" stroke="#237D78" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="9 9"/>
+<a href="https://www.anthropic.com/news/google-broadcom-partnership-compute"><title>2026-01-01: 9 billion; 2025 year-end baseline carried to Jan 1; approximately</title>
+<circle cx="130.00" cy="667.00" r="5" fill="#C46743" stroke="#FFFFFF" stroke-width="3"/>
+</a>
+<a href="https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"><title>2026-02-12: 14 billion; announcement date</title>
+<circle cx="342.47" cy="632.00" r="5" fill="#C46743" stroke="#FFFFFF" stroke-width="3"/>
+</a>
+<a href="https://www.anthropic.com/news/google-broadcom-partnership-compute"><title>2026-04-06: 30 billion; announcement date; surpassed threshold</title>
+<circle cx="610.59" cy="520.00" r="5" fill="#C46743" stroke="#FFFFFF" stroke-width="3"/>
+</a>
+<a href="https://www.anthropic.com/news/series-h"><title>2026-05-28: 47 billion; announcement date; crossed earlier in May; exact date unknown</title>
+<circle cx="873.65" cy="401.00" r="5" fill="#C46743" stroke="#FFFFFF" stroke-width="3"/>
+</a>
+<circle cx="873.65" cy="476.92" r="5" fill="#FFFFFF" stroke="#237D78" stroke-width="3"/>
+<a href="https://www.investing.com/news/stock-market-news/anthropic-revenue-run-rate-tops-65-billion-source-says-4864031"><title>2026-07-31: 65 billion; end-July as-of date; surpassed threshold; reported Aug 17</title>
+<circle cx="1197.41" cy="275.00" r="5" fill="#C46743" stroke="#FFFFFF" stroke-width="3"/>
+</a>
+<circle cx="1197.41" cy="380.00" r="5" fill="#FFFFFF" stroke="#237D78" stroke-width="3"/>
+<text x="1229.41" y="285.00" font-size="36" fill="#C46743" style="fill:#C46743" font-weight="400" text-anchor="start" >&gt; $65B</text>
+<text x="1229.41" y="320.00" font-size="22" fill="#C46743" style="fill:#C46743" font-weight="400" text-anchor="start" >Reported ARR</text>
+<text x="1229.41" y="390.00" font-size="36" fill="#237D78" style="fill:#237D78" font-weight="400" text-anchor="start" >≈ $50B</text>
+<text x="1229.41" y="425.00" font-size="22" fill="#237D78" style="fill:#237D78" font-weight="400" text-anchor="start" >Normalized*</text>
+<text x="1420.00" y="825.00" font-size="20" fill="#777D79" style="fill:#777D79" font-weight="400" text-anchor="end" >* ARR ÷ 1.30</text>
+</svg>
